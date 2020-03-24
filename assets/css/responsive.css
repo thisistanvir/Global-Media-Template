@@ -1,0 +1,70 @@
+
+/* Tablet desktop :768px. */
+@media only screen and (max-width: 991px) {
+    .single-service-item {
+        margin-top: 40px;
+    }
+    .single-why-we-item {
+        margin-bottom: 40px;
+    }
+    .single-working-item {
+        margin-bottom: 30px;
+    }
+    .apps-links .apps-store {
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+    .single-about-item {
+        margin-bottom: 30px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media only screen and (max-width: 767px) {
+    .single-slider-item h1 {
+        font-size: 33px;
+    }
+    .single-slider-item {
+        height: 600px;
+    }
+    .single-service-item {
+        padding: 50px 20px;
+    }
+    .section-title h1 {
+        font-size: 35px;
+    }
+    .working-area {
+        padding-bottom: 70px;
+    }
+    .advertise-img img {
+        display: none;
+    }
+    .apps-links img {
+        width: 100px;
+        height: 50px;
+    }
+    .publisher-area {
+        padding: 50px 0;
+    }
+    .contact-content {
+        padding: 20px;
+    }
+    .contact-content a span {
+        font-size: 25px;
+    }
+    .site-logo {
+        margin-top: 2px;
+    }
+    .header-area.sticky {
+        padding: 20px 0;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
