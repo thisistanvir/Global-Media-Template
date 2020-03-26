@@ -13,21 +13,7 @@
 			});
             // Sticky Menu
             
-            // Smooth Scroll for IE/ EDGE/ SAFARI
-            $('a').on('click', function(event){
-                if (this.hash !==''){
-                    event.preventDefault();
-
-                    var hash = this.hash;
-
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                        }, 800, function(){
-                        window.location.hash = hash;
-                    });
-                }
-            });
-            // End Smooth Scroll for IE/ EDGE/ SAFARI
+           
 
 			// Menu Active Color
 			$('.main-menu li').on('click', function(){
@@ -56,6 +42,22 @@
         activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
     });
 //   Scroll Up
+
+ // Smooth Scroll for IE/ EDGE/ SAFARI
+ $('a').on('click', function(event){
+    if (this.hash !==''){
+        event.preventDefault();
+
+        var hash = this.hash;
+
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+            }, 800, function(){
+            window.location.hash = hash;
+        });
+    }
+});
+// End Smooth Scroll for IE/ EDGE/ SAFARI
    });
 
 })(jQuery);
